@@ -18,7 +18,7 @@ const getPrimeFactors = (x) => {
       return (x === 3);
     }
 
-    for (var i = 5; i <= Math.sqrt(x); i += 6) {
+    for (let i = 5; i <= Math.sqrt(x); i += 6) {
       if (x % i === 0) {
         return false;
       }
