@@ -1,6 +1,7 @@
 # euler-javascript
 
 ## Installation and running
+Make sure you have git, node, time installed
 
 ```
 git clone https://github.com/zpenka/euler-javascript.git
