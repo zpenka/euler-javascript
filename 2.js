@@ -2,9 +2,8 @@
 // 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
 // By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
-const max = 4000000;
 let sum = 0;
-
+const max = 4000000;
 const isEven = (x) => x % 2 === 0;
 
 for (let i = 1, j = 2, k; j < max; k = i, i = j, j += k) {
