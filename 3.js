@@ -53,4 +53,3 @@ console.log('The largest prime factor is', largest_prime_factor);
 // real    0m0.049s
 // user    0m0.048s
 // sys     0m0.000s
-//
