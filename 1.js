@@ -10,3 +10,8 @@ for (let i = 1; i < 1000; i++) {
 }
 
 console.log('The sum is', sum);
+
+// The sum is 233168
+// real    0m0.038s
+// user    0m0.028s
+// sys     0m0.008s

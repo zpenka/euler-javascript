@@ -13,3 +13,8 @@ for (let i = 1, j = 2, k; j < max; k = i, i = j, j += k) {
 }
 
 console.log('The sum is', sum);
+
+// The sum is 4613732
+// real    0m0.077s
+// user    0m0.060s
+// sys     0m0.016s
