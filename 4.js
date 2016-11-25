@@ -14,7 +14,7 @@ for (let i = 999; i > 100; i--) {
   }
 }
 
-const answer = palindromes.sort((a, b) => a > b).pop();
+const answer = palindromes.sort((x, y) => x > y).pop();
 
 console.log('Largest palindrome', answer);
 // Largest palindrome 906609

@@ -44,7 +44,7 @@ const getPrimeFactors = (x) => {
   return factors;
 };
 
-const sorted_factors = getPrimeFactors(base_number).sort((a, b) => a > b);
+const sorted_factors = getPrimeFactors(base_number).sort((x, y) => x > y);
 const largest_prime_factor = sorted_factors.pop();
 
 console.log('The largest prime factor is', largest_prime_factor);

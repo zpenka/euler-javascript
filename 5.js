@@ -1,11 +1,11 @@
 // 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 // What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
-const gcd = (a, b) => b === 0 ? a : gcd(b, a % b);
-const lcm = (a, b) => a * b / gcd(a, b);
-const divisible = (a) => {
+const gcd = (x, y) => y === 0 ? x : gcd(y, x % y);
+const lcm = (x, y) => x * y / gcd(x, y);
+const divisible = (x) => {
   let result = 1;
 
-  for (let i = 2; i <= a; ++i) {
+  for (let i = 2; i <= x; ++i) {
     result = lcm(result, i);
   }
 
