@@ -4,8 +4,10 @@
 const generatePrimes = (n) => {
   const primes = [];
 
-  if (n > 0) {
+  if (n > 1) {
     primes.push(2);
+  } else {
+    return primes;
   }
 
   let test = 3;
